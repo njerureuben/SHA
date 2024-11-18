@@ -1,0 +1,1032 @@
+{% extends 'base.html' %}
+
+{%  load static %}
+
+{%  block content %}
+
+<main class="main">
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero section light-background">
+
+        <img src="{% static 'images/hero-bg.jpg'%} " alt="" data-aos="fade-in">
+
+        <div class="container position-relative">
+
+            <div class="welcome position-relative" data-aos="fade-down" data-aos-delay="100">
+                <h2>WELCOME TO SHA </h2>
+                <p> Your health is our priority, with quality care and exceptional service.</p>
+            </div><!-- End Welcome -->
+
+            <div class="content row gy-4">
+                <div class="col-lg-4 d-flex align-items-stretch">
+                    <div class="why-box" data-aos="zoom-out" data-aos-delay="200">
+                        <h3>Why Choose SHA - HOSPITAL?</h3>
+                        <p>
+                            At SHA Hospital, we are committed to providing comprehensive healthcare with
+                            state-of-the-art technology, compassionate care, and an experienced medical team. We
+                            prioritize your wellness and strive to offer accessible, quality medical services.
+                        </p>
+                        <div class="text-center">
+                            <a href="#about" class="more-btn"><span>Learn More</span> <i
+                                    class="bi bi-chevron-right"></i></a>
+                        </div>
+                    </div>
+                </div><!-- End Why Box -->
+
+                <div class="col-lg-8 d-flex align-items-stretch">
+                    <div class="d-flex flex-column justify-content-center">
+                        <div class="row gy-4">
+
+                            <div class="col-xl-4 d-flex align-items-stretch">
+                                <div class="icon-box" data-aos="zoom-out" data-aos-delay="300">
+                                    <i class="bi bi-clipboard-data"></i>
+                                    <h4>Dedicated Staff Facilities</h4>
+                                    <p>Our specialized facilities and dedicated staff ensure that patients receive
+                                        tailored care in a welcoming environment.</p>
+                                </div>
+                            </div><!-- End Icon Box -->
+
+                            <div class="col-xl-4 d-flex align-items-stretch">
+                                <div class="icon-box" data-aos="zoom-out" data-aos-delay="400">
+                                    <i class="bi bi-gem"></i>
+                                    <h4>Advanced Patient Care</h4>
+                                    <p>Our approach to patient care is both advanced and compassionate, aiming for
+                                        optimal recovery and health outcomes.</p>
+                                </div>
+                            </div><!-- End Icon Box -->
+
+                            <div class="col-xl-4 d-flex align-items-stretch">
+                                <div class="icon-box" data-aos="zoom-out" data-aos-delay="500">
+                                    <i class="bi bi-inboxes"></i>
+                                    <h4>Innovative Treatments</h4>
+                                    <p>We use the latest medical innovations to provide minimally invasive and effective
+                                        treatments for our patients.</p>
+                                </div>
+                            </div><!-- End Icon Box -->
+
+                        </div>
+                    </div>
+                </div>
+            </div><!-- End  Content-->
+
+        </div>
+
+    </section><!-- /Hero Section -->
+
+    <!-- About Section -->
+    <section id="about" class="about section">
+
+        <div class="container">
+
+            <div class="row gy-4 gx-5">
+
+                <div class="col-lg-6 position-relative align-self-start" data-aos="fade-up" data-aos-delay="200">
+                    <img src="{% static 'images/about.jpg'%}" class="img-fluid" alt="">
+                    <a href="https://www.youtube.com/watch?v=Y7f98aduVJ8" class="glightbox pulsating-play-btn"></a>
+                </div>
+
+                <div class="col-lg-6 content" data-aos="fade-up" data-aos-delay="100">
+                    <h3>About Us</h3>
+                    <p>
+                        SHA Hospital is a leader in providing high-quality healthcare. We are dedicated to advancing the
+                        field of medicine through research and personalized care, ensuring each patient receives the
+                        best possible treatment.
+                    </p>
+                    <ul>
+                        <li>
+                            <i class="fa-solid fa-vial-circle-check"></i>
+                            <div>
+                                <h5>Comprehensive Health Checks</h5>
+                                <p>Our health screenings are designed to provide a full analysis, enabling early
+                                    detection and preventive care.</p>
+                            </div>
+                        </li>
+                        <li>
+                            <i class="fa-solid fa-pump-medical"></i>
+                            <div>
+                                <h5>Innovative Surgical Care</h5>
+                                <p>We specialize in innovative surgical techniques, prioritizing minimally invasive
+                                    procedures and patient recovery.</p>
+                            </div>
+                        </li>
+                        <li>
+                            <i class="fa-solid fa-heart-circle-xmark"></i>
+                            <div>
+                                <h5>Cardiovascular Excellence</h5>
+                                <p>Our cardiovascular department is equipped with the latest technology for heart health
+                                    and patient care.</p>
+                            </div>
+
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section><!-- /About Section -->
+
+    <!-- Stats Section -->
+    <section id="stats" class="stats section light-background">
+
+        <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+            <div class="row gy-4">
+
+                <div class="col-lg-3 col-md-6 d-flex flex-column align-items-center">
+                    <i class="fa-solid fa-user-doctor"></i>
+                    <div class="stats-item">
+                        <span data-purecounter-start="0" data-purecounter-end="85" data-purecounter-duration="1"
+                              class="purecounter"></span>
+                        <p>Doctors</p>
+                    </div>
+                </div><!-- End Stats Item -->
+
+                <div class="col-lg-3 col-md-6 d-flex flex-column align-items-center">
+                    <i class="fa-regular fa-hospital"></i>
+                    <div class="stats-item">
+                        <span data-purecounter-start="0" data-purecounter-end="18" data-purecounter-duration="1"
+                              class="purecounter"></span>
+                        <p>Departments</p>
+                    </div>
+                </div><!-- End Stats Item -->
+
+                <div class="col-lg-3 col-md-6 d-flex flex-column align-items-center">
+                    <i class="fas fa-flask"></i>
+                    <div class="stats-item">
+                        <span data-purecounter-start="0" data-purecounter-end="12" data-purecounter-duration="1"
+                              class="purecounter"></span>
+                        <p>Research Labs</p>
+                    </div>
+                </div><!-- End Stats Item -->
+
+                <div class="col-lg-3 col-md-6 d-flex flex-column align-items-center">
+                    <i class="fas fa-award"></i>
+                    <div class="stats-item">
+                        <span data-purecounter-start="0" data-purecounter-end="150" data-purecounter-duration="1"
+                              class="purecounter"></span>
+                        <p>Awards</p>
+                    </div>
+                </div><!-- End Stats Item -->
+
+            </div>
+
+        </div>
+
+    </section><!-- /Stats Section -->
+
+    <!-- Services Section -->
+    <section id="services" class="services section">
+
+        <!-- Section Title -->
+        <div class="container section-title" data-aos="fade-up">
+            <h2>Services</h2>
+            <p>We offer a comprehensive range of medical services tailored to meet the needs of each patient.</p>
+        </div><!-- End Section Title -->
+
+        <div class="container">
+
+            <div class="row gy-4">
+
+                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+                    <div class="service-item  position-relative">
+                        <div class="icon">
+                            <i class="fas fa-heartbeat"></i>
+                        </div>
+                        <a href="#" class="stretched-link">
+                            <h3>Cardiology</h3>
+                        </a>
+                        <p>Our cardiology team provides expert care for all heart conditions, focusing on prevention,
+                            treatment, and recovery.</p>
+                    </div>
+                </div><!-- End Service Item -->
+
+                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+                    <div class="service-item position-relative">
+                        <div class="icon">
+                            <i class="fas fa-pills"></i>
+                        </div>
+                        <a href="#" class="stretched-link">
+                            <h3>Pharmacy</h3>
+                        </a>
+                        <p>Our pharmacy services ensure that patients have access to the medications they need, backed
+                            by expert consultation.</p>
+                    </div>
+                </div><!-- End Service Item -->
+
+                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
+                    <div class="service-item position-relative">
+                        <div class="icon">
+                            <i class="fas fa-hospital-user"></i>
+                        </div>
+                        <a href="#" class="stretched-link">
+                            <h3>Primary Care</h3>
+                        </a>
+                        <p>Our dedicated primary care physicians provide routine check-ups, preventive care, and health
+                            management services.</p>
+                    </div>
+                </div><!-- End Service Item -->
+
+                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="400">
+                    <div class="service-item position-relative">
+                        <div class="icon">
+                            <i class="fas fa-dna"></i>
+                        </div>
+                        <a href="#" class="stretched-link">
+                            <h3>Advanced Genetic Research</h3>
+                        </a>
+                        <p>Our cutting-edge research in genetic sciences focuses on enhancing patient outcomes through
+                            tailored treatments and innovative technologies.</p>
+                    </div>
+                </div><!-- End Service Item -->
+
+                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="500">
+                    <div class="service-item position-relative">
+                        <div class="icon">
+                            <i class="fas fa-wheelchair"></i>
+                        </div>
+                        <a href="#" class="stretched-link">
+                            <h3>Comprehensive Rehabilitation</h3>
+                        </a>
+                        <p>Our rehabilitation services focus on restoring patients’ independence and improving quality
+                            of life through personalized care plans.</p>
+
+                        <a href="#" class="stretched-link"></a>
+                    </div>
+                </div><!-- End Service Item -->
+
+                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="600">
+                    <div class="service-item position-relative">
+                        <div class="icon">
+                            <i class="fas fa-notes-medical"></i>
+                        </div>
+                        <a href="#" class="stretched-link">
+                            <h3>Advanced Diagnostics</h3>
+                        </a>
+                        <p>Our diagnostic services utilize state-of-the-art technology to provide accurate and timely
+                            assessments, ensuring the best possible care.</p>
+                        <a href="#" class="stretched-link"></a>
+                    </div>
+                </div><!-- End Service Item -->
+
+            </div>
+
+        </div>
+
+    </section><!-- /Services Section -->
+
+
+
+    <!-- Appointment Section -->
+<section id="appointment" class="appointment section">
+    <!-- Section Title -->
+    <div class="container section-title" data-aos="fade-up">
+        <h2>Book an Appointment</h2>
+        <p>Schedule a consultation with our expert healthcare providers for personalized care and support tailored
+            to your needs.</p>
+    </div><!-- End Section Title -->
+
+    <div class="container" data-aos="fade-up" data-aos-delay="100">
+        <form action=""  method="POST" enctype="multipart/form-data" class="appointment-form">
+<!--             <form action="" method="POST" enctype="multipart/form-data">-->
+            {% csrf_token %}
+
+            <div class="row">
+                <div class="col-md-4 form-group">
+                    {{ appointment_form.name }}
+                </div>
+                <div class="col-md-4 form-group mt-3 mt-md-0">
+                    {{ appointment_form.email }}
+                </div>
+                <div class="col-md-4 form-group mt-3 mt-md-0">
+                    {{ appointment_form.phone }}
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-4 form-group mt-3">
+                    {{ appointment_form.date }}
+                </div>
+                <div class="col-md-4 form-group mt-3">
+                    {{ appointment_form.department }}
+                </div>
+                <div class="col-md-4 form-group mt-3">
+                    {{ appointment_form.doctor }}
+                </div>
+            </div>
+
+            <div class="form-group mt-3">
+                {{ appointment_form.description }}
+            </div>
+
+            <div class="mt-3">
+                <div class="text-center">
+                        <button type="submit"  name="appointment_submit">Make an Appointment</button>
+                </div>
+            </div>
+        </form>
+    </div>
+</section>
+
+
+
+
+    <!-- Departments Section -->
+    <section id="departments" class="departments section">
+
+        <!-- Section Title -->
+        <div class="container section-title" data-aos="fade-up">
+            <h2>Our Departments</h2>
+            <p>Explore our specialized departments, each dedicated to delivering high-quality care and advanced
+                treatments for a wide range of medical needs.</p>
+        </div><!-- End Section Title -->
+
+        <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+            <div class="row">
+                <div class="col-lg-3">
+                    <ul class="nav nav-tabs flex-column">
+                        <li class="nav-item">
+                            <a class="nav-link active show" data-bs-toggle="tab"
+                               href="#departments-tab-1">Cardiology</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" data-bs-toggle="tab" href="#departments-tab-2">Neurology</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" data-bs-toggle="tab" href="#departments-tab-3">Hepatology</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" data-bs-toggle="tab" href="#departments-tab-4">Pediatrics</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" data-bs-toggle="tab" href="#departments-tab-5">Eye Care</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-lg-9 mt-4 mt-lg-0">
+                    <div class="tab-content">
+                        <div class="tab-pane active show" id="departments-tab-1">
+                            <div class="row">
+                                <div class="col-lg-8 details order-2 order-lg-1">
+                                    <h3>Cardiology</h3>
+                                    <p class="fst-italic">Our cardiology department provides advanced heart care
+                                        services with a focus on preventive care, diagnostics, and innovative treatment
+                                        options.</p>
+                                    <p>Our team of cardiologists is dedicated to diagnosing and treating heart
+                                        conditions with precision and compassion. We offer a range of services, from
+                                        routine check-ups to advanced procedures, to support your heart health at every
+                                        stage.</p>
+                                </div>
+                                <div class="col-lg-4 text-center order-1 order-lg-2">
+                                    <img src="{% static 'images/departments-1.jpg'%}" alt="" class="img-fluid">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane" id="departments-tab-2">
+                            <div class="row">
+                                <div class="col-lg-8 details order-2 order-lg-1">
+                                    <h3>Advanced Diagnostics and Imaging</h3>
+                                    <p class="fst-italic">Providing state-of-the-art diagnostic and imaging services to
+                                        support accurate assessments and effective treatment plans.</p>
+                                    <p>Our diagnostic department is equipped with cutting-edge technology to deliver
+                                        precise results. From imaging to laboratory analyses, we ensure a high standard
+                                        of accuracy and reliability to guide the best possible treatment for our
+                                        patients.</p>
+                                </div>
+                                <div class="col-lg-4 text-center order-1 order-lg-2">
+                                    <img src=" {% static 'images/departments-2.jpg' %}" alt="" class="img-fluid">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane" id="departments-tab-3">
+                            <div class="row">
+                                <div class="col-lg-8 details order-2 order-lg-1">
+                                    <h3>Comprehensive Patient Support Services</h3>
+                                    <p class="fst-italic">Dedicated to ensuring patient comfort, accessibility, and
+                                        quality care throughout every step of the healthcare journey.</p>
+                                    <p>Our patient support team is here to guide you, from scheduling and consultation
+                                        to follow-up care. We prioritize a seamless experience and address each
+                                        patient’s unique needs, providing compassionate assistance and resources for
+                                        optimal care and recovery.</p>
+
+                                </div>
+                                <div class="col-lg-4 text-center order-1 order-lg-2">
+                                    <img src="{% static 'images/departments-3.jpg' %}" alt="" class="img-fluid">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane" id="departments-tab-4">
+                            <div class="row">
+                                <div class="col-lg-8 details order-2 order-lg-1">
+                                    <h3>Expert Surgical Care for Complex Conditions</h3>
+                                    <p class="fst-italic">Providing advanced surgical solutions with the highest level
+                                        of expertise to address even the most complex medical conditions.</p>
+                                    <p>Our surgical team specializes in a wide range of procedures, using
+                                        state-of-the-art technology and techniques to ensure the best outcomes for our
+                                        patients. We focus on minimizing recovery times and improving long-term health,
+                                        with personalized care before, during, and after surgery.</p>
+
+                                </div>
+                                <div class="col-lg-4 text-center order-1 order-lg-2">
+                                    <img src="{% static 'images/departments-4.jpg' %}" alt="" class="img-fluid">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane" id="departments-tab-5">
+                            <div class="row">
+                                <div class="col-lg-8 details order-2 order-lg-1">
+                                    <h3>Comprehensive Pain Management and Rehabilitation</h3>
+                                    <p class="fst-italic">Offering personalized pain management plans to help you
+                                        recover and regain quality of life after injury or surgery.</p>
+                                    <p>Our pain management team uses a combination of innovative therapies, including
+                                        physical therapy, medications, and advanced techniques to alleviate chronic
+                                        pain. We work closely with each patient to create an individualized treatment
+                                        plan that promotes healing, reduces discomfort, and restores mobility and
+                                        function.</p>
+
+                                </div>
+                                <div class="col-lg-4 text-center order-1 order-lg-2">
+                                    <img src="{% static 'images/departments-5.jpg' %}" alt="" class="img-fluid">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </section><!-- /Departments Section -->
+
+    <!-- Doctors Section -->
+    <section id="doctors" class="doctors section">
+
+        <!-- Section Title -->
+        <div class="container section-title" data-aos="fade-up">
+            <h2>Our Doctors</h2>
+            <p>Meet our team of highly skilled and compassionate doctors, dedicated to providing the best care tailored
+                to your health needs.</p>
+        </div><!-- End Section Title -->
+
+        <div class="container">
+
+            <div class="row gy-4">
+
+                <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+                    <div class="team-member d-flex align-items-start">
+                        <div class="pic"><img src="  {% static 'images/doctors/doctors-1.jpg' %}" class="img-fluid"
+                                              alt=""></div>
+                        <div class="member-info">
+                            <h4>Walter White</h4>
+                            <span>Chief Medical Officer</span>
+                            <p>Dr. Walter White brings extensive experience in leading medical teams and implementing
+                                innovative healthcare solutions to improve patient care and outcomes. His commitment to
+                                excellence and compassionate leadership has shaped the hospital's high standards of
+                                care</p>
+
+
+                            <div class="social">
+                                <a href=""><i class="bi bi-twitter-x"></i></a>
+                                <a href=""><i class="bi bi-facebook"></i></a>
+                                <a href=""><i class="bi bi-instagram"></i></a>
+                                <a href=""> <i class="bi bi-linkedin"></i> </a>
+                            </div>
+                        </div>
+                    </div>
+                </div><!-- End Team Member -->
+
+                <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
+                    <div class="team-member d-flex align-items-start">
+                        <div class="pic"><img src=" {% static 'images/doctors/doctors-2.jpg' %}" class="img-fluid"
+                                              alt=""></div>
+                        <div class="member-info">
+                            <h4>Sarah Jhonson</h4>
+                            <span>Anesthesiologist</span>
+                            <p>Dr. Sarah Jhonson specializes in providing safe and effective anesthesia care. With years
+                                of experience, she ensures that each patient is comfortable and well-cared for before,
+                                during, and after surgery, utilizing the latest techniques in pain management.</p>
+                            <div class="social">
+                                <a href=""><i class="bi bi-twitter-x"></i></a>
+                                <a href=""><i class="bi bi-facebook"></i></a>
+                                <a href=""><i class="bi bi-instagram"></i></a>
+                                <a href=""> <i class="bi bi-linkedin"></i> </a>
+                            </div>
+                        </div>
+                    </div>
+                </div><!-- End Team Member -->
+
+                <div class="col-lg-6" data-aos="fade-up" data-aos-delay="300">
+                    <div class="team-member d-flex align-items-start">
+                        <div class="pic"><img src="{% static 'images/doctors/doctors-3.jpg'%}" class="img-fluid" alt="">
+                        </div>
+                        <div class="member-info">
+                            <h4>William Anderson</h4>
+                            <span>Cardiologist</span>
+                            <p>Dr. William Anderson is a highly experienced cardiologist dedicated to diagnosing and
+                                treating heart conditions. With a patient-centered approach, he combines advanced
+                                technology and compassionate care to ensure optimal heart health for all his
+                                patients.</p>
+
+                            <div class="social">
+                                <a href=""><i class="bi bi-twitter-x"></i></a>
+                                <a href=""><i class="bi bi-facebook"></i></a>
+                                <a href=""><i class="bi bi-instagram"></i></a>
+                                <a href=""> <i class="bi bi-linkedin"></i> </a>
+                            </div>
+                        </div>
+                    </div>
+                </div><!-- End Team Member -->
+
+                <div class="col-lg-6" data-aos="fade-up" data-aos-delay="400">
+                    <div class="team-member d-flex align-items-start">
+                        <div class="pic"><img src="{% static 'images/doctors/doctors-4.jpg' %}" class="img-fluid"
+                                              alt=""></div>
+                        <div class="member-info">
+                            <h4>Amanda Jepson</h4>
+                            <span>Neurosurgeon</span>
+                            <p>Dr. Amanda Jepson is a skilled neurosurgeon specializing in complex brain and spinal
+                                surgeries. With a focus on precision and patient well-being, she uses advanced
+                                techniques to treat neurological disorders and improve the quality of life for her
+                                patients.</p>
+
+                            <div class="social">
+                                <a href=""><i class="bi bi-twitter-x"></i></a>
+                                <a href=""><i class="bi bi-facebook"></i></a>
+                                <a href=""><i class="bi bi-instagram"></i></a>
+                                <a href=""> <i class="bi bi-linkedin"></i> </a>
+                            </div>
+                        </div>
+                    </div>
+                </div><!-- End Team Member -->
+
+            </div>
+
+        </div>
+
+    </section><!-- /Doctors Section -->
+
+    <!-- Faq Section -->
+    <section id="faq" class="faq section light-background">
+
+        <!-- Section Title -->
+        <div class="container section-title" data-aos="fade-up">
+            <h2>Frequently Asked Questions</h2>
+            <p>We understand that you may have some questions about our services and processes. Here are answers to some
+                of the most commonly asked questions. If you have any other inquiries, feel free to contact us.</p>
+
+        </div><!-- End Section Title -->
+
+        <div class="container">
+
+            <div class="row justify-content-center">
+
+                <div class="col-lg-10" data-aos="fade-up" data-aos-delay="100">
+
+                    <div class="faq-container">
+
+                        <div class="faq-item faq-active">
+                            <h3>What should I expect during my first visit?</h3>
+                            <div class="faq-content">
+                                <p>During your first visit, our medical team will conduct a thorough evaluation to
+                                    understand your health history and concerns. You’ll undergo a basic examination, and
+                                    we’ll discuss the next steps in your treatment plan. Our goal is to ensure that you
+                                    feel comfortable and informed throughout the process.</p>
+                            </div>
+                        <i class="faq-toggle bi bi-chevron-right"></i>
+                    </div><!-- End Faq item-->
+
+                    <div class="faq-item">
+                        <h3>How do I prepare for my medical consultation?</h3>
+                        <div class="faq-content">
+                            <p>To ensure the best care during your consultation, we recommend bringing any relevant
+                                medical records or test results. It's also helpful to write down any questions or
+                                concerns you have in advance. Our team will guide you through the process, ensuring that
+                                all your needs are addressed efficiently and comprehensively.</p>
+                        </div>
+                        <i class="faq-toggle bi bi-chevron-right"></i>
+                </div><!-- End Faq item-->
+
+                <div class="faq-item">
+                    <h3>What are the benefits of regular exercise for my health?</h3>
+                    <div class="faq-content">
+                        <p>Regular exercise offers a wide range of health benefits. It helps improve cardiovascular
+                            health, boosts the immune system, and enhances mental well-being. Engaging in physical
+                            activity can also increase strength, flexibility, and endurance, while reducing the risk of
+                            chronic diseases such as diabetes and hypertension.</p>
+                    </div>
+                    <i class="faq-toggle bi bi-chevron-right"></i>
+            </div><!-- End Faq item-->
+
+            <div class="faq-item">
+                <h3>How does regular physical activity contribute to mental health?</h3>
+                <div class="faq-content">
+                    <p>Regular physical activity has a significant impact on mental health. It can reduce symptoms of
+                        depression and anxiety by stimulating the production of endorphins, the body’s natural mood
+                        enhancers. Exercise also promotes better sleep, boosts self-esteem, and improves overall
+                        cognitive function, contributing to a more positive outlook on life.</p>
+                </div>
+                <i class="faq-toggle bi bi-chevron-right"></i>
+        </div><!-- End Faq item-->
+
+        <div class="faq-item">
+            <h3>How do I schedule an appointment with a doctor?</h3>
+            <div class="faq-content">
+                <p>To schedule an appointment, simply visit our appointment page or contact our reception team. We offer
+                    online booking for your convenience, or you can call us directly to set up a time that works best
+                    for you. Our staff will assist in finding the right specialist for your needs.</p>
+            </div>
+
+            <i class="faq-toggle bi bi-chevron-right"></i>
+        </div><!-- End Faq item-->
+
+        <div class="faq-item">
+            <h3>What should I do if I need to cancel or reschedule my appointment?</h3>
+            <div class="faq-content">
+                <p>If you need to cancel or reschedule your appointment, please contact our office as soon as possible.
+                    You can call us or use our online portal to make changes to your booking. We ask that you notify us
+                    at least 24 hours in advance to avoid any cancellation fees and to allow us to offer your spot to
+                    another patient.</p>
+            </div>
+
+            <i class="faq-toggle bi bi-chevron-right"></i>
+        </div><!-- End Faq item-->
+
+        </div>
+
+        </div><!-- End Faq Column-->
+
+        </div>
+
+        </div>
+
+    </section><!-- /Faq Section -->
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials section">
+
+        <div class="container">
+
+            <div class="row align-items-center">
+
+                <div class="col-lg-5 info" data-aos="fade-up" data-aos-delay="100">
+                    <h3>Testimonials</h3>
+                    <p>
+                        "I had a wonderful experience at the clinic. The staff was incredibly helpful, and the doctor
+                        was very thorough in explaining my treatment options. I felt cared for and understood throughout
+                        the entire process. Highly recommend to anyone seeking quality healthcare!"
+                        — Jane Doe, Satisfied Patient
+                    </p>
+
+                </div>
+
+                <div class="col-lg-7" data-aos="fade-up" data-aos-delay="200">
+
+                    <div class="swiper init-swiper">
+                        <script type="application/json" class="swiper-config">
+                            {
+                                "loop": true,
+                                "speed": 600,
+                                "autoplay": {
+                                    "delay": 5000
+                                },
+                                "slidesPerView": "auto",
+                                "pagination": {
+                                    "el": ".swiper-pagination",
+                                    "type": "bullets",
+                                    "clickable": true
+                                }
+                            }
+                        </script>
+                        <div class="swiper-wrapper">
+
+                            <div class="swiper-slide">
+                                <div class="testimonial-item">
+                                    <div class="d-flex">
+                                        <img src="{% static 'images/testimonials/testimonials-1.jpg' %}"
+                                             class="testimonial-img flex-shrink-0" alt="">
+                                        <div>
+                                            <h3>Saul Goodman</h3>
+                                            <h4>Ceo &amp; Founder</h4>
+                                            <div class="stars">
+                                                <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                                                    class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                                                    class="bi bi-star-fill"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <p>
+                                        <i class="bi bi-quote quote-icon-left"></i>
+                                        <span>"The care and attention I received here were exceptional. The staff made sure I was comfortable at every step, and the treatment was tailored specifically to my needs. I highly recommend this healthcare facility to anyone looking for top-notch service!"</span>
+                                        <i class="bi bi-quote quote-icon-right"></i>
+                                    </p>
+                                </div>
+                            </div><!-- End testimonial item -->
+
+                            <div class="swiper-slide">
+                                <div class="testimonial-item">
+                                    <div class="d-flex">
+                                        <img src="{% static 'images/testimonials/testimonials-2.jpg'%}"
+                                             class="testimonial-img flex-shrink-0" alt="">
+                                        <div>
+                                            <h3>Sara Wilsson</h3>
+                                            <h4>Designer</h4>
+                                            <div class="stars">
+                                                <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                                                    class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                                                    class="bi bi-star-fill"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <p>
+                                        <i class="bi bi-quote quote-icon-left"></i>
+                                        <span>Working with this team has been an absolute pleasure. Their attention to detail, creativity, and commitment to excellence have transformed my vision into a reality. I highly recommend their services to anyone looking for exceptional design work!</span>
+                                        <i class="bi bi-quote quote-icon-right"></i>
+                                    </p>
+                                </div>
+                            </div><!-- End testimonial item -->
+
+                            <div class="swiper-slide">
+                                <div class="testimonial-item">
+                                    <div class="d-flex">
+                                        <img src="{% static 'images//testimonials/testimonials-3.jpg' %}"
+                                             class="testimonial-img flex-shrink-0" alt="">
+                                        <div>
+                                            <h3>Jena Karlis</h3>
+                                            <h4>Store Owner</h4>
+                                            <div class="stars">
+                                                <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                                                    class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                                                    class="bi bi-star-fill"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <p>
+                                        <i class="bi bi-quote quote-icon-left"></i>
+                                        <span>The team has been fantastic in helping me elevate my store's design. They worked closely with me to understand my vision and delivered beyond expectations. Their creativity and customer service are top-notch. I couldn't be happier with the results!</span>
+                                        <i class="bi bi-quote quote-icon-right"></i>
+                                    </p>
+                                </div>
+                            </div><!-- End testimonial item -->
+
+                            <div class="swiper-slide">
+                                <div class="testimonial-item">
+                                    <div class="d-flex">
+                                        <img src="{% static 'images/testimonials/testimonials-4.jpg' %}"
+                                             class="testimonial-img flex-shrink-0" alt="">
+                                        <div>
+                                            <h3>Matt Brandon</h3>
+                                            <h4>Freelancer</h4>
+                                            <div class="stars">
+                                                <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                                                    class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                                                    class="bi bi-star-fill"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <p>
+                                        <i class="bi bi-quote quote-icon-left"></i>
+                                        <span>Working with this team has been an absolute pleasure. Their attention to detail and willingness to collaborate made the entire process smooth and enjoyable. I’ve seen a noticeable improvement in my project’s success, and I highly recommend their services to any freelancer looking to enhance their work!</span>
+                                        <i class="bi bi-quote quote-icon-right"></i>
+                                    </p>
+                                </div>
+                            </div><!-- End testimonial item -->
+
+                            <div class="swiper-slide">
+                                <div class="testimonial-item">
+                                    <div class="d-flex">
+                                        <img src="{% static 'images/testimonials/testimonials-5.jpg' %}"
+                                             class="testimonial-img flex-shrink-0" alt="">
+                                        <div>
+                                            <h3>John Larson</h3>
+                                            <h4>Entrepreneur</h4>
+                                            <div class="stars">
+                                                <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                                                    class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                                                    class="bi bi-star-fill"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <p>
+                                        <i class="bi bi-quote quote-icon-left"></i>
+                                        <span>Working with this team has been an incredible experience. They provided valuable insights that helped grow my business. Their dedication to quality and their strategic approach made a significant impact on my entrepreneurial journey. I look forward to working with them again!</span>
+                                        <i class="bi bi-quote quote-icon-right"></i>
+                                    </p>
+                                </div>
+                            </div><!-- End testimonial item -->
+
+                        </div>
+                        <div class="swiper-pagination"></div>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section><!-- /Testimonials Section -->
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="gallery section">
+
+        <!-- Section Title -->
+        <div class="container section-title" data-aos="fade-up">
+            <h2>Gallery</h2>
+            <p>Explore our collection of stunning images showcasing our latest projects, services, and events. Each
+                picture represents our commitment to quality and creativity, providing a glimpse into the work we do and
+                the experiences we create.</p>
+        </div><!-- End Section Title -->
+
+        <div class="container-fluid" data-aos="fade-up" data-aos-delay="100">
+
+            <div class="row g-0">
+
+                <div class="col-lg-3 col-md-4">
+                    <div class="gallery-item">
+                        <a href=" {% static 'images/gallery/gallery-1.jpg' %}" class="glightbox"
+                           data-gallery="images-gallery">
+                            <img src="{% static 'images/gallery/gallery-1.jpg' %}" alt="" class="img-fluid">
+                        </a>
+                    </div>
+                </div><!-- End Gallery Item -->
+
+                <div class="col-lg-3 col-md-4">
+                    <div class="gallery-item">
+                        <a href=" {% static 'images/gallery/gallery-2.jpg' %}" class="glightbox"
+                           data-gallery="images-gallery">
+                            <img src="{% static 'images/gallery/gallery-2.jpg' %}" alt="" class="img-fluid">
+                        </a>
+                    </div>
+                </div><!-- End Gallery Item -->
+
+                <div class="col-lg-3 col-md-4">
+                    <div class="gallery-item">
+                        <a href=" {% static 'images/gallery/gallery-3.jpg' %} " class="glightbox"
+                           data-gallery="images-gallery">
+                            <img src=" {% static 'images/gallery/gallery-3.jpg' %} " alt="" class="img-fluid">
+                        </a>
+                    </div>
+                </div><!-- End Gallery Item -->
+
+                <div class="col-lg-3 col-md-4">
+                    <div class="gallery-item">
+                        <a href=" {% static 'images/gallery/gallery-4.jpg' %}" class="glightbox"
+                           data-gallery="images-gallery">
+                            <img src=" {% static 'images/gallery/gallery-4.jpg' %}" alt="" class="img-fluid">
+                        </a>
+                    </div>
+                </div><!-- End Gallery Item -->
+
+                <div class="col-lg-3 col-md-4">
+                    <div class="gallery-item">
+                        <a href=" {% static 'images/gallery/gallery-5.jpg' %} " class="glightbox"
+                           data-gallery="images-gallery">
+                            <img src=" {% static 'images/gallery/gallery-5.jpg' %} " alt="" class="img-fluid">
+                        </a>
+                    </div>
+                </div><!-- End Gallery Item -->
+
+                <div class="col-lg-3 col-md-4">
+                    <div class="gallery-item">
+                        <a href="{% static 'images/gallery/gallery-6.jpg' %}" class="glightbox"
+                           data-gallery="images-gallery">
+                            <img src="{% static 'images/gallery/gallery-6.jpg' %}" alt="" class="img-fluid">
+                        </a>
+                    </div>
+                </div><!-- End Gallery Item -->
+
+                <div class="col-lg-3 col-md-4">
+                    <div class="gallery-item">
+                        <a href=" {% static 'images/gallery/gallery-7.jpg' %}" class="glightbox"
+                           data-gallery="images-gallery">
+                            <img src=" {% static 'images/gallery/gallery-7.jpg' %}" alt="" class="img-fluid">
+                        </a>
+                    </div>
+                </div><!-- End Gallery Item -->
+
+                <div class="col-lg-3 col-md-4">
+                    <div class="gallery-item">
+                        <a href=" {% static 'images/gallery/gallery-8.jpg' %} " class="glightbox"
+                           data-gallery="images-gallery">
+                            <img src=" {% static 'images/gallery/gallery-8.jpg' %}" alt="" class="img-fluid">
+                        </a>
+                    </div>
+                </div><!-- End Gallery Item -->
+
+            </div>
+
+        </div>
+
+    </section><!-- /Gallery Section -->
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact section">
+
+        <!-- Section Title -->
+        <div class="container section-title" data-aos="fade-up">
+            <h2>Contact</h2>
+            <p>We'd love to hear from you! Whether you have questions, need assistance, or want to discuss a new
+                project, feel free to reach out to us. Our team is ready to help and ensure a smooth experience for
+                you.</p>
+
+        </div><!-- End Section Title -->
+
+        <div class="mb-5" data-aos="fade-up" data-aos-delay="200">
+            <iframe style="border:0; width: 100%; height: 270px;"
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15955.364476137353!2d36.799728944247676!3d-1.2681246795167387!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182f173c0a1f9de7%3A0xad2c84df1f7f2ec8!2sWestlands%2C%20Nairobi!5e0!3m2!1sen!2ske!4v1731652156763!5m2!1sen!2ske"
+                    frameborder="0" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+
+<!--            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15955.364476137353!2d36.799728944247676!3d-1.2681246795167387!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182f173c0a1f9de7%3A0xad2c84df1f7f2ec8!2sWestlands%2C%20Nairobi!5e0!3m2!1sen!2ske!4v1731652156763!5m2!1sen!2ske" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>-->
+        </div><!-- End Google Maps -->
+
+        <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+            <div class="row gy-4">
+
+                <div class="col-lg-4">
+                    <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="300">
+                        <i class="bi bi-geo-alt flex-shrink-0"></i>
+                        <div>
+                            <h3>Location</h3>
+                            <p>Our office is located at A108 Adam Street, Westlands, Nairobi-Kenya. Feel free to stop by for
+                                a visit or schedule an appointment with us. We're conveniently situated to serve clients
+                                in the heart of the city.</p>
+
+                        </div>
+                    </div><!-- End Info Item -->
+
+                    <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="400">
+                        <i class="bi bi-telephone flex-shrink-0"></i>
+                        <div>
+
+
+
+
+<!--                <p class="mt-3">
+  <strong>Phone:</strong>
+  <a href="tel:+155895548855">+254111234567</a>
+</p>
+
+            <p>
+  <strong>Email:</strong>
+  <a href="mailto:Swiftgroup10@example.com">Swiftgroup10@example.com</a>
+</p>-->
+
+                            <h3>Call Us</h3>
+                           <p class="mt-3"><a href="tel:+155895548855">+254111234567</a></p>
+                        </div>
+                    </div><!-- End Info Item -->
+
+                    <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="500">
+                        <i class="bi bi-envelope flex-shrink-0"></i>
+                        <div>
+                            <h3>Email Us</h3>
+                            <p class="mt-3"><a href="mailto:Swiftgroup10@example.com">Swiftgroup10@example.com</a></p>
+                        </div>
+                    </div><!-- End Info Item -->
+
+                </div>
+
+                <div class="col-lg-8">
+                    <!-- Contact Form Section -->
+<form action="" method="POST" enctype="multipart/form-data" class="contact-form" data-aos="fade-up" data-aos-delay="200">
+    {% csrf_token %}
+    <div class="row gy-4">
+        <div class="col-md-6">
+            {{ contact_form.contactName }}
+        </div>
+        <div class="col-md-6">
+            {{ contact_form.contactEmail }}
+        </div>
+        <div class="col-md-12">
+            {{ contact_form.contactSubject }}
+        </div>
+        <div class="col-md-12">
+            {{ contact_form.contactMessage }}
+        </div>
+        <div class="col-md-12 text-center">
+            <button type="submit" name="contact_submit">Send Message</button>
+        </div>
+    </div>
+</form>
+                </div><!-- End Contact Form -->
+
+            </div>
+
+        </div>
+
+    </section><!-- /Contact Section -->
+
+</main>
+
+
+{%  endblock %}
+
+
+
+
